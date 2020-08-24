@@ -10,7 +10,7 @@ Využívání metody UIDL pro označování zpráv, což vede ke značnému zryc
 
 ## Použití
 
-popcl <server> [-p <port>][-T|-S [-c <certfile>][-C <certaddr>]] [-d] [-n] -a <auth_file> -o <out_dir>
+popcl \<server> [-p \<port>][-T|-S [-c \<certfile>][-C \<certaddr>]] [-d] [-n] -a \<auth_file> -o \<out_dir>
 
 ## Přepínače
 
@@ -18,15 +18,15 @@ popcl <server> [-p <port>][-T|-S [-c <certfile>][-C <certaddr>]] [-d] [-n] -a <a
 
 **\<server>** Doménové jméno nebo IP adresa požadovaného zdroje. Uvádí se jako parametr bez přepínače. V případě zadání více parametrů bez přepínače, je zvolen první výskyt.
 
-**-a** Vynucuje autentizaci uživatele. Konfiguračního souboru <auth_file> obsahuje přihlašovací údaje ve tvaru:
+**-a** Vynucuje autentizaci uživatele. Konfiguračního souboru **\<auth_file>** obsahuje přihlašovací údaje ve tvaru:
 
 username = jmeno
 
 passoword = heslo
 
-**-o** Specifikuje výstupní adresář <out_dir>, do kterého program ukládá stažené zprávy.
+**-o** Specifikuje výstupní adresář **\<out_dir>**, do kterého program ukládá stažené zprávy.
 
-Volitelné:
+### Volitelné
 
 **-p \<port>** Určí explicitně komunikační port jinak je zvolen výchozí port registrovaný organizací IANA (110 nebo 955 v závislosti na parametru -T).
 
